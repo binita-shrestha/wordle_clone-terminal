@@ -1,0 +1,11 @@
+#pushing for the first time
+git init #Initialize a Git repository
+git add . #Adding your files to staging
+git commit -m "Initial commit: Wordle game and README added" #Commit your files with comments
+git remote add origin https://github.com/binita-shrestha/wordle_clone-terminal.git #Connect local repo to your GitHub repo
+git pull origin main --allow-unrelated-histories #Pull remote changes (because GitHub had the MIT License file)
+git commit -m "Merge remote-tracking branch 'origin/main'" #Finalize the merge
+git push -u origin main #Push your project to GitHub
+
+#next push 
+
