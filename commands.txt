@@ -8,4 +8,8 @@ git commit -m "Merge remote-tracking branch 'origin/main'" #Finalize the merge
 git push -u origin main #Push your project to GitHub
 
 #next push 
+git add . (or the exact filename)
+git commit -m "your message goes here"
+git push
+git status #to check everything is synced
 
